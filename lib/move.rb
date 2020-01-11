@@ -13,5 +13,5 @@ def input_to_index(position)
 end
 
 def move(board, position, token ="X")
- board[position.to_i] = token
+ board[position] = token
 end
